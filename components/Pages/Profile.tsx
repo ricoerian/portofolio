@@ -10,8 +10,8 @@ import { Button } from "../ui/button";
 
 export function Profile() {
   const techStack = [
-    "Django", "Angular", "Flutter", "React", "Next.js", 
-    "Laravel", "Docker", "TrueNAS", "Linux", "Git"
+    "Django", "Angular", "Flutter", "Laravel", 
+    "React", "Next.js", "Docker", "Linux", "TrueNAS", "Git"
   ];
 
   const serverSpecs = [
@@ -24,14 +24,14 @@ export function Profile() {
     {
       ver: "v2026.3 - Current",
       role: "Full Stack Developer",
-      loc: "PT Timedoor (Monolithic Design Div.)",
-      desc: "Administratively at PT Timedoor Indonesia (Bali), developing for Monolithic Design (Japan). Shipping code via Django, Angular, & Flutter.",
+      loc: "Monolithic Design Bali (@Timedoor ID)",
+      desc: "Spawning at Denpasar basecamp (Divisi Monolithic Design). Grinding production quests for Japan HQ using Django, Angular, & Flutter.",
     },
     {
       ver: "v2023.10 - v2026.2",
       role: "Teacher / Code Guru",
       loc: "SMK Purnawarman",
-      desc: "Deployed Knowledge.exe to students. Debugged syntax errors. Compiled the next generation of devs.",
+      desc: "Deployed Knowledge.exe to students. Debugging syntax errors. Compiled the next generation of devs.",
     },
     {
       ver: "v2024.1 - v2026.2",
@@ -44,6 +44,12 @@ export function Profile() {
       role: "Pixel Pusher & Logic Bender",
       loc: "Wako GmbH/Remote",
       desc: "Architected Meshify & AIDDDO. Converted caffeine into deployable production code.",
+    },
+    {
+      ver: "v????.??",
+      role: "Mercenary for Hire",
+      loc: "The Internet",
+      desc: "Will code for server parts. Sleep is optional, Uptime is mandatory.",
     }
   ];
 
@@ -97,7 +103,7 @@ export function Profile() {
                 className="w-full aspect-square object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-300 border border-black dark:border-white"
               />
               <div className="mt-2 text-center font-black text-lg bg-yellow-400 text-black border-y-2 border-black dark:border-white py-1 uppercase tracking-tighter">
-                Lvl. 99 Technomancer
+                Lvl. ??? Technomancer
               </div>
             </div>
             <div className="absolute -top-6 -right-6 bg-red-500 text-white border-2 border-black dark:border-white px-3 py-2 text-sm font-bold shadow-[4px_4px_0_0_#000] dark:shadow-[4px_4px_0_0_#fff] rotate-[10deg] animate-pulse">
@@ -170,7 +176,7 @@ export function Profile() {
               <p className="text-base md:text-lg text-black dark:text-white font-medium leading-relaxed">
                 <span className="font-bold bg-yellow-300 text-black px-1 mr-1"> $ whoami </span>
                 <br/>
-                I am Rico. Formerly an educator compiling the next generation of devs, I am now a Full Stack Developer at PT. Timedoor Indonesia, building enterprise solutions for Monolithic Design Japan.
+                I am Rico. Ex-Code Guru who successfully compiled students into devs. Now spawned in Bali basecamp, doing Full Stack quests for Monolithic Design Japan. By night, I retreat to my Homelab to manage bare-metal infrastructure.
                 <br/><br/>
                 I have a passion for enterprise hardware and Stoic philosophy—though production outages still test my patience. Currently optimizing local AI models to bypass expensive cloud costs.
               </p>
