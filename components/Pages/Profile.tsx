@@ -62,7 +62,7 @@ export function Profile() {
     },
     { 
       title: "PROJECT: DATA_HOARDER", 
-      desc: "Dell R730 Beast. 30 Drives. Acoustics of a jet engine. Archiving the Matrix.", 
+      desc: "Dell PowerEdge R7625 Beast. Unlimited Drives. Acoustics of a super jet engine. Archiving the Matrix.", 
       hp: "99% UP",
       color: "bg-yellow-200 dark:bg-yellow-900 dark:text-white"
     },
