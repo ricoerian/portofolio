@@ -10,8 +10,8 @@ import { Button } from "../ui/button";
 
 export function Profile() {
   const techStack = [
-    "Laravel", "React", "Next.js", "Tailwind", 
-    "Docker", "TrueNAS", "Cloudflared", "Linux", "FastPanel", "Git"
+    "Django", "Angular", "Flutter", "React", "Next.js", 
+    "Laravel", "Docker", "TrueNAS", "Linux", "Git"
   ];
 
   const serverSpecs = [
@@ -22,13 +22,19 @@ export function Profile() {
 
   const changelog = [
     {
-      ver: "v2023.10 - Current",
-      role: "Teacher / Code Guru",
-      loc: "SMK Purnawarman",
-      desc: "Deploying Knowledge.exe to students. Debugging syntax errors. Compiling the next generation of devs.",
+      ver: "v2026.3 - Current",
+      role: "Full Stack Developer",
+      loc: "PT Timedoor (Monolithic Design Div.)",
+      desc: "Administratively at PT Timedoor Indonesia (Bali), developing for Monolithic Design (Japan). Shipping code via Django, Angular, & Flutter.",
     },
     {
-      ver: "v2024.1 - Current",
+      ver: "v2023.10 - v2026.2",
+      role: "Teacher / Code Guru",
+      loc: "SMK Purnawarman",
+      desc: "Deployed Knowledge.exe to students. Debugged syntax errors. Compiled the next generation of devs.",
+    },
+    {
+      ver: "v2024.1 - v2026.2",
       role: "Lab (Tech) Master",
       loc: "SMK Purnawarman",
       desc: "Managed the Silicon Sanctuary. Upgraded hardware stats. Prevented students from running rm -rf /.",
@@ -38,12 +44,6 @@ export function Profile() {
       role: "Pixel Pusher & Logic Bender",
       loc: "Wako GmbH/Remote",
       desc: "Architected Meshify & AIDDDO. Converted caffeine into deployable production code.",
-    },
-    {
-      ver: "v????.??",
-      role: "Mercenary for Hire",
-      loc: "The Internet",
-      desc: "Will code for server parts. Sleep is optional, Uptime is mandatory.",
     }
   ];
 
@@ -97,7 +97,7 @@ export function Profile() {
                 className="w-full aspect-square object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-300 border border-black dark:border-white"
               />
               <div className="mt-2 text-center font-black text-lg bg-yellow-400 text-black border-y-2 border-black dark:border-white py-1 uppercase tracking-tighter">
-                Lvl. ??? Technomancer
+                Lvl. 99 Technomancer
               </div>
             </div>
             <div className="absolute -top-6 -right-6 bg-red-500 text-white border-2 border-black dark:border-white px-3 py-2 text-sm font-bold shadow-[4px_4px_0_0_#000] dark:shadow-[4px_4px_0_0_#fff] rotate-[10deg] animate-pulse">
@@ -143,7 +143,7 @@ export function Profile() {
             </h1>
             <div className="flex flex-wrap gap-3 mt-4">
                <span className="bg-green-400 text-black border-2 border-black dark:border-white px-3 py-1 font-bold text-sm shadow-[2px_2px_0_0_#000] dark:shadow-[2px_2px_0_0_#fff] transform -rotate-2">
-                 TEACHER 👨‍🏫
+                 EX-TEACHER 👨‍🏫
                </span>
                <span className="bg-blue-400 text-black border-2 border-black dark:border-white px-3 py-1 font-bold text-sm shadow-[2px_2px_0_0_#000] dark:shadow-[2px_2px_0_0_#fff] transform rotate-1">
                  FULLSTACK 💻
@@ -170,7 +170,7 @@ export function Profile() {
               <p className="text-base md:text-lg text-black dark:text-white font-medium leading-relaxed">
                 <span className="font-bold bg-yellow-300 text-black px-1 mr-1"> $ whoami </span>
                 <br/>
-                I am Rico. By day, I empower students to become software engineers. By night, I retreat to my Homelab to manage bare-metal infrastructure.
+                I am Rico. Formerly an educator compiling the next generation of devs, I am now a Full Stack Developer at PT. Timedoor Indonesia, building enterprise solutions for Monolithic Design Japan.
                 <br/><br/>
                 I have a passion for enterprise hardware and Stoic philosophy—though production outages still test my patience. Currently optimizing local AI models to bypass expensive cloud costs.
               </p>
