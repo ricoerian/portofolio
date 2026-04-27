@@ -176,7 +176,7 @@ export function Profile() {
               <p className="text-base md:text-lg text-black dark:text-white font-medium leading-relaxed">
                 <span className="font-bold bg-yellow-300 text-black px-1 mr-1"> $ whoami </span>
                 <br/>
-                I am Rico. Ex-Code Guru who successfully compiled students into devs. Now spawned in Bali basecamp, doing Full Stack quests for Monolithic Design Japan. By night, I retreat to my Homelab to manage bare-metal infrastructure.
+                I am Rico. Ex-Code Guru who successfully compiled students into devs. Now spawned in Denpasar basecamp, doing Full Stack quests for Monolithic Design Japan. By night, I retreat to my Homelab to manage bare-metal infrastructure.
                 <br/><br/>
                 I have a passion for enterprise hardware and Stoic philosophy—though production outages still test my patience. Currently optimizing local AI models to bypass expensive cloud costs.
               </p>
